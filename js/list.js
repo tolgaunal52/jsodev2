@@ -1,11 +1,11 @@
 let inputDOM = document.querySelector("#task")
 let listDOM = document.querySelector("#list")
 
-function boslukEngelle() {
-    if (event.keyCode == 32) {
-        return false;
-    }
-}
+// function boslukEngelle() {               boşluk eklenmesini engellemek için AMA bütün boşlukları engelliyor
+//    if (event.keyCode == 32) {
+//        return false;
+//    }
+// }
 
 const checked = (e) => {
     const item = e.target
